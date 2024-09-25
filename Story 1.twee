@@ -1,0 +1,606 @@
+:: StoryTitle
+Story 1
+
+
+:: StoryData
+{
+  "ifid": "00ADD2F9-2523-4C81-AEAF-9EC993FFA0E9",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "title",
+  "tag-colors": {
+    "north": "red",
+    "flashlightnorth": "red",
+    "flashlightwest": "blue",
+    "flashlighteast": "orange",
+    "flashlightdown": "green",
+    "flashlightsouth": "purple",
+    "fallingdeath": "green",
+    "poisondeath": "green",
+    "diamondroombp": "orange",
+    "diamondroomretreive": "orange"
+  },
+  "zoom": 1
+}
+
+
+:: \ Pull out Item 1 {"position":"475,400","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_d1f1b897462844e29d8ffdb8a3fc06d5.wav">
+
+</audio>
+
+//''This item feels like a canister of some sort, possibly filled with liquid.
+''//
+
+[[Open Canister]]
+
+[[Put Item Back->Start]] 
+
+
+:: \ Pull out Item 3 {"position":"350,400","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_d1f1b897462844e29d8ffdb8a3fc06d5.wav">
+
+</audio>
+
+
+//''This item feels like a long cylinder of some sort, with a button near one of the ends 
+''//
+
+[[Press Button]]
+
+[[Throw Item Across the Room]]
+
+[[Put Item Back->Start]] 
+
+
+
+
+:: Already Used Canister {"position":"600,875","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_d1f1b897462844e29d8ffdb8a3fc06d5.wav">
+
+</audio>
+
+//''You pull back out the empty canister. You reflect for a second on how lucky you are to be alive. anyways...''//
+
+[[Put Empty Canister Back into Bag]]
+
+
+:: Already Used Tape {"position":"875,375","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_d1f1b897462844e29d8ffdb8a3fc06d5.wav">
+
+</audio>
+
+//''You pull back out the tape recorder. 
+
+NOT FALLING FOR THAT AGAIN!''//
+
+[[Put Tape Recorder Back into Bag]]
+
+
+:: Blank Wall [flashlightnorth] {"position":"75,400","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+//''"Sigh" There's that blank wall with the ominous text again...
+
+''//
+
+[[Turn Left->Heart Door]]
+
+[[Turn Right->Diamond Door]]
+
+[[Look Down->Club Door]]
+
+
+
+:: Club Door [flashlightdown] {"position":"150,650","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+//''There's a trapdoor with the symbol of a Club on it.
+
+Not sure where it leads to though...''//
+
+[[Look Up->Blank Wall]] 
+
+[[Enter Club Door]]
+
+
+:: Diamond Door [flashlighteast] {"position":"275,525","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+//''There's a door with the symbol of a Diamond on it.
+
+Not sure where it leads to though...''//
+
+[[Turn Left->Blank Wall]] 
+
+[[Turn Right->Spade Door]] 
+
+[[Look Down->Club Door]] 
+
+[[Enter Diamond Door]]
+
+
+:: Drink Mysterious Liquid [poisondeath] {"position":"475,650","size":"100,100"}
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_de35efd8c6f44cf28f919143b59a1ac5.mp3">
+
+</audio>
+
+
+:: Enter Club Door [fallingdeath] {"position":"150,775","size":"100,100"}
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_c648959140e54f4f9b8f817525d7a9cf.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_865a82ff0b6f41a2a2309e695442c5da.mp3">
+
+</audio>
+
+
+
+
+:: Enter Diamond Door [diamondroombp] {"position":"400,525","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_d35e931369a24ce7a818d9728866407e.mp3">
+
+</audio>
+
+//''You enter a similar looking room to the previous room.
+
+However, this time the floor is covered in sharp diamonds with a backpack sitting on the far wall. 
+
+An arrow points to the backpack so it must be important, but getting to it is the hard part...
+''//
+
+[[Return to Main Room and Look for more Clues->Diamond Door]]
+
+[[Try to Walk across the Diamonds, and Retrieve the Backpack]]
+
+
+:: Enter Heart Door {"position":"25,525","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_d35e931369a24ce7a818d9728866407e.mp3">
+
+</audio>
+
+
+:: Enter Spade Door {"position":"275,775","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_d35e931369a24ce7a818d9728866407e.mp3">
+
+</audio>
+
+
+:: Heart Door [flashlightwest] {"position":"150,525","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+//''There's a door with the symbol of a Heart on it.
+
+Not sure where it leads to though...''//
+
+[[Turn Left->Spade Door]]
+
+[[Turn Right->Blank Wall]]
+
+[[Look Down->Club Door]]
+
+[[Enter Heart Door]]
+
+
+:: Open Canister {"position":"525,525","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_419aec86257942bbac2ecd17524ca26c.mp3">
+
+</audio>
+
+//''You are a little bit thirsty...
+''//
+
+[[Drink Mysterious Liquid]]
+
+[[Pour Liquid onto Ground]]
+
+
+
+
+:: Play Tape {"position":"700,500","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_ee4552cbb5c04b959cb418678240fa02.mp3">
+
+</audio>
+
+//''Really... A rick roll
+
+Classy.
+
+"Sigh" what a waste of time.
+''//
+
+[[Put Tape Recorder Back into Bag]]
+
+
+:: Pour Liquid onto Ground {"position":"600,625","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_a555ad722eb74353acb72ba6d4956d33.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_725c067586714ffc8476d0656e6a2266.mp3">
+
+</audio>
+
+
+//''Pouring the liquid on the floor causes you to feel pain from the splashes onto your legs and feet.
+
+It was Poison!
+
+Maybe that wasn't such a great idea but at least you didnt drink it. 
+''//
+
+[[Put Empty Canister Back into Bag]]
+
+
+
+:: Press Button [flashlightnorth] {"position":"200,400","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_1e825488cc3c4655b0249dbb579c6bf3.mp3">
+
+</audio>
+
+
+
+//''
+Its a Flashlight! Now you can see the room around you.
+
+There is a solid wall infront of you with the words "Hello" written in "Red Paint...?" in front of you.
+
+
+''//
+
+[[Turn Left->Heart Door]]
+
+[[Turn Right->Diamond Door]]
+
+[[Look Down->Club Door]]
+
+
+
+
+
+:: Pull out Item  2 {"position":"600,400","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_d1f1b897462844e29d8ffdb8a3fc06d5.wav">
+
+</audio>
+
+//''This item feels like a small, slim rectangular box.
+
+There are a couple buttons on the side... It's a Tape recorder?
+''//
+
+[[Play Tape]]
+
+
+:: Put Empty Canister Back into Bag {"position":"600,750","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_3a2d35add54240e09d5fb0da0ba1b460.mp3">
+
+</audio>
+
+//''You return to rummaging around in the bag, searching for clues.''//
+
+[[ Pull out Item 1->Already Used Canister]]
+
+[[Pull out Item  2]]
+
+[[ Pull out Item 3]]
+
+
+:: Put Tape Recorder Back into Bag {"position":"750,375","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_3a2d35add54240e09d5fb0da0ba1b460.mp3">
+
+</audio>
+
+//''You return to rummaging around in the bag, searching for clues.''//
+
+[[ Pull out Item 1]]
+
+[[Pull out Item  2->Already Used Tape]]
+
+[[ Pull out Item 3]]
+
+
+:: Spade Door [flashlightsouth] {"position":"275,650","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+//''There's a door with the symbol of a Spade on it.
+
+Not sure where it leads to though...''//
+
+[[Turn Left->Diamond Door]] 
+
+[[Turn Right->Heart Door]] 
+
+[[Look Down->Club Door]] 
+
+[[Enter Spade Door]]
+
+
+:: Start {"position":"475,275","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_3a2d35add54240e09d5fb0da0ba1b460.mp3">
+
+</audio>
+
+//''You wake up In a Pitch Black Room.
+
+With you, A bag containing various items.
+
+You feel around in the bag, but its too dark to know exacly what each item is.''//
+
+[[ Pull out Item 1]]
+
+[[Pull out Item  2]]
+
+[[ Pull out Item 3]]
+
+
+
+
+:: Throw Item Across the Room {"position":"325,275","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_3e40b461e6af4e90a3076e5594e61ce4.mp3">
+
+</audio>
+
+//''Maybe that was useful...
+
+(why would you throw that, like you didnt even know what it was yet. You're actually insane what is wrong with you. You would be the worst teammate in any escape room because you would just be throwing around the clues like they are some sort of sports ball. Like what were you even thinking. "Oh I wonder what this button does maybe I should throw it to test it". Like no. Just no. See how silly you seem now. Just for that youre going to have to restart from the beginning and think about what youve done... jeez.)
+''//
+
+[[Click here to restart you idiot->Start]]
+
+
+
+
+:: Try to Walk across the Diamonds {"position":"50,900","size":"100,100"}
+
+
+
+:: Try to Walk across the Diamonds, and Retrieve the Backpack [diamondroomretreive] {"position":"400,900","size":"100,100"}
+<audio autoplay loop >
+
+<source src="https://static.wixstatic.com/mp3/582c19_66ab835b4e7a4bc1be1ae34b04b4fd99.mp3">
+
+</audio>
+
+<audio autoplay >
+
+<source src="https://static.wixstatic.com/mp3/582c19_5308c521c3794443ac4c1e54baf29d81.mp3">
+
+</audio>
+
+
+
+
+
+:: title {"position":"475,150","size":"100,100"}
+#The Room
+
+Created By: Cameron Byers 
+
+Can you escape    The Room?
+
+>[[Enter 'The Room'->Start]] 
+
+
+
+
+:: StoryStylesheet [stylesheet]
+tw-story[tags~="flashlightnorth"]{
+	background-image: url("https://static.wixstatic.com/media/582c19_1889ebec17bf45af9ab28ae86bfb2349~mv2.jpeg");
+	background-position: center center;
+  	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+tw-story[tags~="flashlightwest"]{
+	background-image: url("https://static.wixstatic.com/media/582c19_d54663e98a724258b216cdd0bff2c729~mv2.jpeg");
+	background-position: center center;
+  	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+tw-story[tags~="flashlighteast"]{
+	background-image: url("https://static.wixstatic.com/media/582c19_7d451dc4f55a438cac61cbe8a22ecb9b~mv2.jpeg");
+	background-position: center center;
+  	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+tw-story[tags~="flashlightsouth"]{
+	background-image: url("https://static.wixstatic.com/media/582c19_f6e53b69633f4f9f9dc3afade8785453~mv2.jpeg");
+	background-position: center center;
+  	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+tw-story[tags~="flashlightdown"]{
+	background-image: url("https://static.wixstatic.com/media/582c19_9d8fceda85404188a77fee1faf19711c~mv2.jpeg");
+	background-position: center center;
+  	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+tw-story[tags~="fallingdeath"]{
+	background-image: url("https://static.wixstatic.com/media/582c19_ed71b9fbdc4440d2905c7c9d75ea0630~mv2.jpeg");
+	background-position: center center;
+  	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+tw-story[tags~="poisondeath"]{
+	background-image: url("https://static.wixstatic.com/media/582c19_d6f163287ff54b74be8618d9e7736dac~mv2.jpeg");
+	background-position: center center;
+  	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+tw-story[tags~="diamondroombp"]{
+	background-image: url("https://static.wixstatic.com/media/582c19_d278e23111a74d31a5d1676b792c0da8~mv2.jpeg");
+	background-position: center center;
+  	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+tw-story[tags~="diamondroomretreive"]{
+	background-image: url("https://static.wixstatic.com/media/582c19_f42bc94ef7994bb39899a40f87cfc783~mv2.jpeg");
+	background-position: center center;
+  	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
